@@ -4,7 +4,7 @@ from tkinter import *
 import tkinter.messagebox 
 
 root=Tk()
-root.title("Welcome to payroll system")
+root.title("Welcome to payroll management system")
 root.geometry('1350x650+0+0')
 root.configure(background="white")
 
@@ -25,7 +25,7 @@ lblinfo=Label(Tops,font=('arial',45,'bold'),text="Employee Payment Management sy
 lblinfo.grid(row=0,column=0)
 
 def exit():
-  exit=tkinter.messagebox.askyesno("Employee system","Do you want to exit the system")
+  exit=tkinter.messagebox.askyesno("Payroll system","Do you want to exit the system")
   if exit>0:
     root.destroy()
     return
